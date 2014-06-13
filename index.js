@@ -5,6 +5,8 @@ exports = module.exports = init;
 exports.log = log;
 exports.warn = warn;
 exports.error = error;
+exports.all = all;
+
 function init(tag) {
     var method = "log";
     var splts = tag.split(":");
