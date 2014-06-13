@@ -1,0 +1,6 @@
+node_modules
+*.sublime-*
+.idea
+logs/
+.bower-*
+public/libs
